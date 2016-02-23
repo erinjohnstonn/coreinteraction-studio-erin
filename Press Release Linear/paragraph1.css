@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+body {
+  background-color: #08088A;
+  color: #08088A;
+  font-family: helvetica;
+}
+
+.header {text-align: center; 
+    font-size: 60px;
+    padding: 75px;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 20s; 
+  }
+  .paragraph1 {
+  font-size: 30px;
+  padding color: transparent;
+  padding: 20px;
+  margin: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 30s; 
+
+    }   
+    .paragraph2 {
+  font-size: 30px;
+  padding color: transparent;
+  padding: 20px;
+  margin: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 50s; 
+}
+.paragraph3 {
+  font-size: 30px;
+  padding color: transparent;
+  padding: 40px;
+  margin: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+   background-color: blue;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 50s; 
+
+}
+
+
+
+
+.place {text-align: center;
+    font-size: 15px;
+    font-family: helvetica;
+    padding: 20px;
+  }
+
+.place-footer {text-align: center;
+    font-size: 15px;
+    font-family: helvetica;
+    padding: 20px;
+    }
+
+@-webkit-keyframes blackWhite {  
+  0% { background-color: white; }
+  100% { background-color: #white; }
+  80% { background-color: #CED8F6; }
+  70% { background-color: #0000FF; }
+  60% { background-color: #0404B4; }
+  57% { background-color: #08088A; }
+  50% { background-color: #08088A; }
+}
+
+a:link{
+    color: #08088A;
+}
+
+/* visited link */
+a:visited {
+    color: #08088A;
+}
+
+/* mouse over link */
+a:hover {
+    color: #08088A;
+}
+/* selected link */
+a:active {
+    color: #08088A;
+}
+
+
+
+
+   
+
+   
