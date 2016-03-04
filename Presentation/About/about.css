@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+}
+
+.header {text-align: left; 
+    font-size: 60px;
+    padding: 30px;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 20s; 
+  }
+.one {text-align: left; 
+    font-size: 15px;
+    padding: 30px;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 20s; 
+  }
