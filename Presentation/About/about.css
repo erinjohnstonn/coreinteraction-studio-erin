@@ -14,7 +14,17 @@ body {
 .one {text-align: left; 
     font-size: 15px;
     padding: 30px;
+    margin-right:700px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
   }
+
+  img {
+height:390px;
+width: 636.5px;
+position:absolute;
+left: 600px;
+ top: 160px;
+
+}

@@ -6,8 +6,8 @@ body {
 }
 
 .header {text-align: left; 
-    font-size: 60px;
-    padding: 30px;
+    font-size: 40px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
@@ -23,47 +23,47 @@ left: 400px;
 }
 
   .about {text-align: left; 
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
   }
   
   .Website {text-align: left; 
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
   }
   
   .Map {text-align: left; 
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
   }
 
   .Font {text-align: left; 
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
   }
 
   .third {text-align: left; 
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
   }
   .Influences {text-align: left; 
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 20s; 
