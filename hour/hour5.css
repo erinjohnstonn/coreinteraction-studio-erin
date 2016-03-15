@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);body {
+color: black;   
+background-image: url("http://cklettermayer.com/wp-content/uploads/2014/10/CKM8208.jpg");
+font-family: 'Roboto Slab', serif;
+padding:30px;
+
+margin-left: 650px; 
+        margin-right: 50px;
+        margin-top: 335px;
+
+}
+
+.header {text-align: left; 
+        font-size: 30px;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+        position: absolute;
+             left: 500;
+             top: 50px;
+ 
+
+       
+
+
+      }
+        
+.p1 {text-align: left; 
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+     
+       
+        }
+        
+
+.paragraph2 {text-align: left; 
+        font-size: 18px;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+       
+       
+       
+
+        }
+
+    .p3 {text-align: left; 
+        font-size: 18px;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+    
+       
+      
+   
+
+        }
+
+        .paragraph3 {text-align: left; 
+        font-size: 18px;
+        padding: 10px;
+        color: white;
+        
+       
+       
+       
+
+        }
+.header:hover{
+    
+    font-size: 30px;
+    color:#FFFF00;
+    
+    
+    
+}
+
+
+.p1:hover{
+    
+    font-size: 25px;
+    color:#FFFF00;
+   
+    
+}
+.paragraph2:hover{
+    
+    font-size: 25px;
+    
+    font-weight: bold;
+     color:#FFFF00;
+   
+    
+}
+.p3:hover{
+    
+    font-size: 25px;
+    
+    font-weight: bold;
+     color:#FFFF00;
+   
+
+}
+.paragraph3:hover{
+    
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+     color:#FFFF00;
+   
+}
+
+

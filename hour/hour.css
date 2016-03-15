@@ -1,0 +1,107 @@
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+body {
+color: white;	
+background-color: black;
+font-family:'Open Sans', sans-serif;
+}
+
+.header {
+		text-align: center; 
+		font-size: 100px;
+		/*padding: 150px;*/
+		background-color: black;
+		color: white;
+		}
+
+		img {
+	background-color: black;
+   	padding: 30px;
+    margin: 3000px;
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+
+.place {
+		text-align: center;
+		font-size: 15px;
+		padding: 30px;
+		
+	}
+
+.place-footer {
+		text-align: center;
+		font-size: 15px;
+		background-color: black;
+		color: white;
+		padding: 00px;
+		}
+
+.paragraph5 {
+	font-size: 40px;
+	color: black;
+	margin-top: 50000px;
+    left: auto;
+    text-align: center;
+	
+}
+.paragraph6 {
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+    left: 100px;
+    text-align: center;
+
+	
+}
+.paragraph7 {
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+
+	
+}
+.paragraph8 {
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+
+	
+}
+.paragraph9 {
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+
+	
+}
+
+
+.paragraph5:hover{
+	
+	font-size: 50px;
+}
+
+.paragraph6:hover{
+	
+	font-size: 30px;
+}
+.paragraph7:hover{
+	
+	font-size: 30px;
+}
+.paragraph8:hover{
+	
+	font-size: 30px;
+}
+.paragraph9:hover{
+	
+	font-size: 30px;
+}
+
+
+
+

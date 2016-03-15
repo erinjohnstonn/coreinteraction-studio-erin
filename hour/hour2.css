@@ -1,0 +1,46 @@
+body {
+color: black;   
+background-color: white;
+font-family:'Open Sans', sans-serif;
+}
+
+.header {text-align: center; 
+        font-size: 50px;
+        padding: 300px;
+        background-color: red;
+    color: #0B3B17;
+
+        }
+        
+.p1 {text-align: center; 
+        font-size: 30px;
+        padding: 300px;
+        background-color: white;
+    color: #0B3B17;
+
+        }
+        
+
+.paragraph2 {text-align: center; 
+        font-size: 30px;
+        padding: 300px;
+        background-color: black;
+    color: white;
+
+        }
+
+    .p3 {text-align: center; 
+        font-size: 30px;
+        padding: 300px;
+        background-color: red;
+    color: #0B3B17;
+
+        }
+
+        .paragraph3 {text-align: center; 
+        font-size: 30px;
+        padding: 300px;
+        background-color: white;
+    color: #0B3B17;
+
+        }
