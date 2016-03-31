@@ -1,10 +1,10 @@
-@import url(ArchivoNarrow-Regular.ttf);
+@import url(CooperHewitt-Heavy.otf);
 
 
 body {
 color: black;   
 background-color: white;
-font-family: ArchivoNarrow-Regular, sans-serif;
+font-family: CooperHewitt-Heavy, sans-serif;
 font-size: 60px;
 margin:0px;
 }
