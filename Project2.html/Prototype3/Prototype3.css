@@ -14,6 +14,7 @@ margin:0px;
         padding: 300px;
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/16/Kurdish_women_from_P%C4%81lang%C4%81n_village_(13361081043).jpg");
         color: #0B3B17;
+        transition: opacity 5s linear;
 
         }
 
@@ -77,5 +78,11 @@ margin:0px;
 
         .p3:hover {
         background-color: #0B610B;
+        
         }
+
+
+
+
+}
 
