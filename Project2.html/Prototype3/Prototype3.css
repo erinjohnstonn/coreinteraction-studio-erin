@@ -1,10 +1,10 @@
-@import url(CooperHewitt-Heavy.otf);
+@import url(Oswald-Bold.otf);
 
 
 body {
 color: black;   
 background-color: white;
-font-family: CooperHewitt-Heavy, sans-serif;
+font-family: Oswald-Bold, sans-serif;
 font-size: 60px;
 margin:0px;
 }
