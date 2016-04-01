@@ -2,7 +2,7 @@ function init () {
 	console.log(('jjj'))
 	/* here's how you setup the map to start */
 
-	var startAtThisPosition = {lat: -25.363, lng: 131.044};
+	var startAtThisPosition = {lat: -25.363, lng: 100.044};
 
 	var map = new google.maps.Map(document.getElementById('map'), {
 	  zoom: 2,
@@ -11,13 +11,18 @@ function init () {
 
 	/* here's how you add a marker */
 
-	var markerPos = {lat: 35.00, lng: 38.00};
+	var markerPos = {lat: 37.00, lng: 42.00};
 
 	var marker = new google.maps.Marker({
 	  position: markerPos,
 	  map: map,
-	  title: 'Hello World!'
+	  title: 'Syria'
+
 	});
+	
+
+
+
 
 
 
@@ -29,7 +34,7 @@ function init () {
 	var marker = new google.maps.Marker({
 	  position: markerPos,
 	  map: map,
-	  title: 'Hello World!'
+	  title: 'New York!'
 	});
 
 };
