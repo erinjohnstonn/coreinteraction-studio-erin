@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);body {
 color: black;   
 background-image: url("http://cklettermayer.com/wp-content/uploads/2014/10/CKM8208.jpg");
+background-size: 1500px;
 font-family: 'Roboto Slab', serif;
 padding:30px;
 margin-left: 650px; 
@@ -13,9 +14,9 @@ margin-left: 650px;
         font-size: 30px;
         font-weight: bold;
         padding: 10px;
-        color: white;
+        color: black;
         position: absolute;
-             left: 500;
+             left: 1500;
              top: 50px;
  
 
