@@ -1,0 +1,46 @@
+body {
+color: black;   
+background-image: url("http://40.media.tumblr.com/c8383957daa4a4420fa161998ae6a3fe/tumblr_nx77xoNIL41u2cmuko1_1280.jpg");
+background-size: 1000px;
+font-family: helvetica;
+font-size: 100px;
+margin:0px;
+
+}
+
+        .header {text-align: center; 
+        padding: 30px;
+        background-color: black;
+        color: white;
+        font-size: 55px;
+        
+
+
+        }
+
+a:link {
+    color: white;
+    text-decoration: none;
+   
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+      

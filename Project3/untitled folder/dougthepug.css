@@ -1,8 +1,20 @@
+body {
+color:black;
+}
+
 a {
-  color: blue;
+  color: black;
   text-decoration: underline;
+  padding-color: black;
+  padding: 20px;
 }
 
 .message {
   margin-bottom: 10px;
+}
+
+.quote1{
+	color: white;
+  padding-color: black;
+  padding: 20px;
 }
