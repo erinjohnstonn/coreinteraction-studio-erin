@@ -2,22 +2,16 @@ i = 0;
 
 $(document).ready(function(){
 
-    var sendDoug = function(){
-        alert('Doug the Pug');
-    };
-
-
 
     $(window).keypress(function(e) {
         var value = Math.floor(Math.random() * 13);
 
         Chat.sendMessage({
-          sender: 'Dan Brewster',
+          sender: 'Doug the Pug',
           type: 'raw',
           value: value
         });
 
-       sendDoug();
         $("span").text(i += 1);
     });   
 });
@@ -25,7 +19,19 @@ $(document).ready(function(){
 
 
 
-
+var imageValues = {
+  
+  0: 'image0',
+  1: 'image1',
+  2: 'image2',
+  3: 'image3',
+  4: 'image4',
+  5: 'image5',  
+  6: 'image5',  
+  7: 'image7',  
+  8: 'image8', 
+  9: 'image9',   
+};
 
 
 
@@ -36,34 +42,41 @@ var quoteValues = {
   1: 'quote2',
   2: 'quote3',
   3: 'quote4',
-  4: 'quote5',  
+  4: 'quote5', 
+  5: 'quote6', 
+  6: 'quote7', 
+  7: 'quote8', 
+  8: 'quote9', 
+  9: 'quote0', 
+  
+  
 };
 
-var imageValues = {
-  5: 'image1',
-  6: 'image2',
-  7: 'image3',
-  8: 'image4',
-  9: 'image5',  
-};
+
 
 Chat.onMessage(function (data) {
-  var message = $('<div></div>');
-  var quote = $("." + quoteValues[data.value]);
-  alert(quote.html());
-  $(message).addClass(quoteValues[data.value]);
-  if (data.sender == username) {
-     $(message).addClass('from-current-user');
-  }
 
-  $(messageLabel).html(data.sender);
-  $(message).append(messageLabel);
-  $('.message-container').append(message);
+  var quote = $("." + quoteValues[data.value]);
+  var image = $("." + imageValues[data.value]);
+
+
+  $(".quote").hide ();
+  console.log(quote.show());
+
+ $(".image").hide ();
+  console.log(image.show());
+
+  
 });
+
+
+
 Chat.onUserCountChange(function (currentCount) {
     if (currentCount > 20) {
     currentCount = 20;
   }
+
+
 
 
 

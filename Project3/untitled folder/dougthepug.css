@@ -1,6 +1,10 @@
 body {
-color:black;
+    color: black;   
+    font-family: helvetica;
+    font-size: 100px;
+    margin:0px;
 }
+
 
 a {
   color: black;
@@ -13,8 +17,28 @@ a {
   margin-bottom: 10px;
 }
 
-.quote1{
-	color: white;
-  padding-color: black;
-  padding: 20px;
+.quote{
+	   text-align: center; 
+        padding: 30px;
+        background-color: black;
+        color: white;
+        font-size: 55px;
+        position: fixed;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+        
 }
+ .image{
+            
+            background-size: contain;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-repeat: no-repeat;
+            background-position: center;
+
+}
+        
