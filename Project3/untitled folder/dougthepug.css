@@ -1,8 +1,10 @@
+
 body {
     color: black;   
-    font-family: helvetica;
+font-family: 'helvetica';
     font-size: 100px;
     margin:0px;
+    
 }
 
 
@@ -10,7 +12,7 @@ a {
   color: black;
   text-decoration: underline;
   padding-color: black;
-  padding: 20px;
+  padding: 20px;s
 }
 
 .message {
@@ -20,13 +22,17 @@ a {
 .quote{
 	   text-align: center; 
         padding: 30px;
-        background-color: black;
+        background-color: #5882FA;
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         position: fixed;
             left: 0px;
             right: 0px;
             bottom: 0px;
+       
+   		margin-bottom: 20px;
+    	margin-right: 80px;
+    	margin-left: 80px;
         
 }
  .image{

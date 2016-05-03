@@ -7,7 +7,7 @@ $(document).ready(function(){
         var value = Math.floor(Math.random() * 13);
 
         Chat.sendMessage({
-          sender: 'Doug the Pug',
+          sender: 'DougthePug',
           type: 'raw',
           value: value
         });
@@ -31,6 +31,9 @@ var imageValues = {
   7: 'image7',  
   8: 'image8', 
   9: 'image9',   
+  10:'image10',
+  11:'image11',
+  12:'image12'
 };
 
 
@@ -48,16 +51,21 @@ var quoteValues = {
   7: 'quote8', 
   8: 'quote9', 
   9: 'quote0', 
-  
+  10: 'quote10',
+  11: 'quote11',
+  12: 'quote12'
+
   
 };
 
 
-
 Chat.onMessage(function (data) {
 
-  var quote = $("." + quoteValues[data.value]);
-  var image = $("." + imageValues[data.value]);
+  var quotes = $("." + quoteValues[data.value]);
+  var images = $("." + imageValues[data.value]);
+
+  var quote = $(quotes[Math.floor(Math.random() * quotes.length)]);
+  var image = $(images[Math.floor(Math.random() * images.length)]);
 
 
   $(".quote").hide ();
@@ -75,15 +83,6 @@ Chat.onUserCountChange(function (currentCount) {
     if (currentCount > 20) {
     currentCount = 20;
   }
-
-
-
-
-
-
-
-
-
 
 
 
