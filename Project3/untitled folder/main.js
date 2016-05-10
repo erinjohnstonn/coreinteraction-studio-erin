@@ -13,7 +13,10 @@ $(document).ready(function(){
         });
 
         $("span").text(i += 1);
-    });   
+    });
+
+      $(".quote").hide();
+
 });
 
 
@@ -59,6 +62,8 @@ var quoteValues = {
 };
 
 
+
+
 Chat.onMessage(function (data) {
 
   var quotes = $("." + quoteValues[data.value]);
@@ -67,11 +72,11 @@ Chat.onMessage(function (data) {
   var quote = $(quotes[Math.floor(Math.random() * quotes.length)]);
   var image = $(images[Math.floor(Math.random() * images.length)]);
 
-
-  $(".quote").hide ();
+$(".logo").hide();
+  $(".quote").hide();
   console.log(quote.show());
 
- $(".image").hide ();
+ $(".image").hide();
   console.log(image.show());
 
   

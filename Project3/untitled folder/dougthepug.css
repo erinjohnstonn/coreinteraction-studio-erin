@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+
 body {
     color: black;   
-font-family: font-family: 'Handlee', cursive;
+font-family: helvetica;
     font-size: 100px;
     margin:0px;
     
@@ -19,12 +20,34 @@ a {
   margin-bottom: 10px;
 }
 
+.logo{
+     text-align: center; 
+        padding: 30px;
+        background-color: #5882FA;
+        color: white;
+        font-size: 110px;
+        position: fixed;
+            left: 0px;
+            bottom: 0px;
+        border-radius: 50%;
+        width:400px;
+        height:400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-right: 80px;
+        margin-left: 80px;    
+}
+
+
+
 .quote0{
 	   text-align: center; 
         padding: 30px;
         background-color: #5882FA;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             bottom: 0px;
@@ -39,12 +62,14 @@ a {
     	  margin-left: 80px;    
 }
 
+
+
 .quote1{
      text-align: center; 
         padding: 30px;
         background-color: #F7819F;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             right: 0px;
             bottom: 0px;
@@ -64,7 +89,7 @@ a {
         padding: 30px;
         background-color: #F7D358;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             right: 0px;
             top: 0px;
@@ -84,7 +109,7 @@ a {
         padding: 30px;
         background-color: #F79F81;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             top: 0px;
@@ -104,11 +129,11 @@ a {
         padding: 30px;
         background-color: #01DF74;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             bottom: 0px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
@@ -124,7 +149,7 @@ a {
         padding: 30px;
         background-color: #5882FA;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
     
             right: 0px;
@@ -145,19 +170,19 @@ a {
         padding: 30px;
         background-color: #F7819F;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             top: 0px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
 .quote7{
@@ -165,20 +190,20 @@ a {
         padding: 30px;
         background-color: #F7D358;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
         
             right: 0px;
             bottom: 0px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
 .quote8{
@@ -186,20 +211,20 @@ a {
         padding: 30px;
         background-color: #F79F81;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             bottom: 0px;
-
-       border-radius: 50%;
+ 
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
 .quote9{
@@ -207,20 +232,20 @@ a {
         padding: 30px;
         background-color: #01DF74;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             
             right: 10px;
             top: 0px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
 .quote10{
@@ -228,19 +253,19 @@ a {
         padding: 30px;
         background-color: #5882FA;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
-            left: 0px;
+            right: 0px;
             top: 0px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
 .quote11{
@@ -248,20 +273,20 @@ a {
         padding: 30px;
         background-color: #5882FA;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             right: 0px;
             bottom: 40px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
 .quote12{
@@ -269,19 +294,19 @@ a {
         padding: 30px;
         background-color: #F79F81;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         position: fixed;
             left: 0px;
             bottom: 0px;
-       border-radius: 50%;
+        border-radius: 50%;
         width:300px;
         height:300px;
         display: flex;
        align-items: center;
        justify-content: center;
-      margin-bottom: 20px;
-      margin-right: 80px;
-      margin-left: 80px;
+       margin-bottom: 20px;
+       margin-right: 80px;
+       margin-left: 80px;
         
 }
  .image{
@@ -296,4 +321,7 @@ a {
             background-position: center;
 
 }
+
+
+
         
